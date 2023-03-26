@@ -1,0 +1,188 @@
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  background-color: white;
+  display: flex;
+  height: 20px;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.line_1,
+.line_2 {
+  display: flex;
+  /* margin: 10px; */
+  padding-bottom: 7px;
+  width: 400px;
+  border-top: 3px solid gray;
+}
+
+.text_header {
+  margin: 0 10px 10px 10px;
+  font-size: 30px;
+}
+
+.text {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 20px;
+  background-color: white;
+
+  height: 450px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.first_name,
+.last_name {
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+}
+.div_email,
+.div_passwort,
+.div_confirm {
+  display: flex;
+}
+.input,
+.email,
+.passwort,
+.confirm_pass {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: green;
+  color: white;
+  font-size: large;
+}
+.checked {
+  width: auto;
+}
+a {
+  color: green;
+}
+
+/* body {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 0;
+}
+.container {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: 400px;
+} */
+/* .register {
+  display: flex;
+  margin-top: 40px;
+  background-color: white; */
+
+/*display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: center; */
+
+/* align-items: center; */
+/* }
+.line_1,
+.line_2 {
+  display: flex;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  border-top: 3px solid gray;
+}
+
+.text_header {
+  margin-top: 0px;
+} */
+/* .text {
+  text-align: center;
+}
+.names {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input {
+  height: 40px;
+}
+.wrapper {
+  padding: 20px;
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+/* .name {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+}
+
+.input {
+  width: 100px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: green;
+  color: white;
+  font-size: large;
+} */
+/* **************************** */
+/* .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+} */
