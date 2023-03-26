@@ -56,14 +56,14 @@ body {
   height: 30px;
   padding: 5px;
 }
-.div_email,
-.div_passwort,
-.div_confirm {
+._email,
+._password,
+._confirm {
   display: flex;
 }
 .input,
 .email,
-.passwort,
+.password,
 .confirm_pass {
   width: 100%;
   height: 30px;

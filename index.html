@@ -19,38 +19,64 @@
         Create your account. It's free and only takes a minute.
       </p>
 
-      <div class="name">
-        <input class="first_name" type="first_name" placeholder="First Name" />
-        <input class="last_name" type="text" placeholder="Last Name" />
-      </div>
+      <label class="name">
+        <input
+          class="first_name"
+          type="text"
+          placeholder="First Name"
+          autofocus
+          required
+          autocomplete="name"
+          name="first_name"
+          pattern="^[a-zA-Z][a-zA-Z0-9]{2,15}$"
+        />
+        <input
+          class="last_name"
+          type="text"
+          placeholder="Last Name"
+          required
+          autocomplete="last_name"
+          name="last_name"
+        />
+      </label>
 
-      <div class="div_email">
-        <input class="email" type="email" placeholder="Email" />
-      </div>
+      <label class="_email">
+        <input
+          class="email"
+          type="email"
+          placeholder="Email"
+          required
+          autocomplete="email"
+          name="email"
+        />
+      </label>
 
-      <div class="div_passwort">
-        <input class="passwort" type="passwort" placeholder="Passwort" />
-      </div>
+      <label class="_password">
+        <input
+          class="password"
+          type="password"
+          placeholder="Password"
+          required
+          autocomplete="password"
+          name="password"
+        />
+      </label>
 
-      <div class="div_confirm">
+      <label class="_confirm">
         <input
           class="confirm_pass"
-          type="confirm_pass"
+          type="password"
           placeholder="Confirm Passwort"
+          required
+          autocomplete="confirm_password"
+          name="confirm_password"
         />
-      </div>
+      </label>
 
-      <label for="">
-        <div class="checked">
-          <input
-            type="checkbox"
-            name="
-        "
-            id=""
-          />
-          I accept the <a href="#">Terms of Use</a> &
-          <a href="#">Privacy Policy.</a>
-        </div>
+      <label class="checked">
+        <input type="checkbox" required name="checked" />
+        I accept the <a href="#">Terms of Use</a> &
+        <a href="#">Privacy Policy.</a>
       </label>
       <button type="submit">Register Now</button>
     </form>
