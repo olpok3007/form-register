@@ -20,7 +20,7 @@
       </header>
 
       <form method="get" class="wrapper">
-        <label class="name">
+        <section class="name">
           <input
             class="names first_name"
             type="text"
@@ -39,46 +39,40 @@
             autocomplete="last_name"
             name="last_name"
           />
-        </label>
-
-        <label class="_email">
+        </section>
+        
           <input
-            class="email"
+            class="input email"
             type="email"
             placeholder="Email"
             required
             autocomplete="email"
             name="email"
           />
-        </label>
-
-        <label class="_password">
+        
           <input
-            class="password"
+            class="input password"
             type="password"
             placeholder="Password"
             required
             autocomplete="password"
             name="password"
           />
-        </label>
-
-        <label class="_confirm">
+       
           <input
-            class="confirm_pass"
+            class="input confirm_pass"
             type="password"
             placeholder="Confirm Passwort"
             required
             autocomplete="confirm_password"
             name="confirm_password"
-          />
-        </label>
+          />       
 
-        <label class="checked">
+        <section class="checked">
           <input type="checkbox" required name="checked" />
-          I accept the <a href="#">Terms of Use</a> &
+          I accept the <a class="href" href="#">Terms of Use</a> &
           <a class="href" href="#">Privacy Policy.</a>
-        </label>
+        </section>
         <button class="btn" type="submit">Register Now</button>
       </form>
     </div>
